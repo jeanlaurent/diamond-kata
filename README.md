@@ -1,23 +1,28 @@
+#Diamond Kata
+
 
 My take on the diamond kata.
 
-https://github.com/emilybache/DiamondKata
+#Subject
 
+Given a letter print a diamond starting with 'A'
+with the supplied letter at the widest point.
 
-1
-length = 1
+For example: print-diamond 'E' prints
+
 ```
-A
+    A
+   B B
+  C   C
+ D     D
+E       E
+ D     D
+  C   C
+   B B
+    A
 ```
-2
-length = 3
-```
- A
-B B
- A
-```
-3
-length = 5
+For example: print-diamond 'C' prints
+
 ```
   A
  B B
@@ -25,8 +30,37 @@ C   C
  B B
   A
 ```
+
+#More
+
+For more info, suggestions and test code base see : https://github.com/emilybache/DiamondKata
+
+#Examples
+1
+```
+A
+```
+
+
+2
+```
+ A
+B B
+ A
+```
+
+
+3
+```
+  A
+ B B
+C   C
+ B B
+  A
+```
+
+
 4
-length = 7
 ```
    A
   B B
@@ -36,8 +70,9 @@ D     D
   B B
    A
 ```
+
+
 5
-length = 9
 ```
     A
    B B
